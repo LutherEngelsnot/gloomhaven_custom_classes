@@ -1,0 +1,113 @@
+\documentclass[fontsize=11pt]{scrartcl}
+\PassOptionsToPackage{dvipsnames}{xcolor}
+\PassOptionsToPackage{pdftex}{grpahicx}
+\usepackage[left=1.25cm, right=1.25cm, top=1.15cm, bottom=2.25cm]{geometry}
+\usepackage[pages=some]{background}
+\usepackage[space]{grffile}
+\usepackage{graphicx}
+\usepackage{multicol}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{fontspec}
+\usepackage{graphicx,wrapfig,lipsum}
+\setmainfont{Nyala}
+\newfontfamily\myfont{Pirata One}
+
+\backgroundsetup{
+scale=1,
+angle=0,
+contents={%
+  \includegraphics[width=\paperwidth,height=\paperheight]{../../CreatorPack/Scenario Book/Backgrounds/Background - Scenario with Title - Left}
+  }%
+}
+\begin{document}
+  \BgThispage
+	\vspace*{-0.25cm} \hskip 1.85cm {\myfont\textcolor{Blue}{K-6 \LARGE{Hoarder's Twist}}}\vspace*{0.4cm}\newline\newline
+	{\myfont\LARGE{\textcolor{Blue}{Requirements:}} \normalsize{None}}\newline
+	{\myfont\LARGE{\textcolor{Blue}{Goal:}} \normalsize{Deplete the loot deck to reclaim the stolen goods}}\newline\newline
+	\begin{minipage}{0.3\textwidth}
+	  \begin{center}
+		  {\myfont\LARGE{\textcolor{OliveGreen}{Introduction:}}}
+		\end{center}
+    \footnotesize{You were looking forward to a good night’s rest - instead, you find yourselves standing outside in the chilly dusk, barely clad and armed, fuming as you stare after the Vermling shuffling away with a humongous bag on their back. If the sack weren’t stuffed with your possessions, you’d burst out laughing watching the scrawny rodent-like creature stubbornly haul its oversized burden.
+When you woke up to the sound of somebody rummaging through your things a few minutes ago and saw the Vermling but no sign of forceful intrusion, you realized the spoils of your last adventure must’ve been... contaminated. And now the “contaminant” is absconding with their ill-gotten prize.\newline\newline
+Nobody steals from you and lives to tell the tale, especially not at this hour. You’re determined to chase the brazen thief down and beat them to death with a spoon if need be.}
+    \begin{center}
+	    {\myfont\LARGE{\textcolor{Blue}{Special Rules:}}}
+		\end{center}
+	  \footnotesize{The wooden wall section “b” has (1+L/2)xC hit points. If it has been destroyed, replace it with a wooden corridor overlay tile and read section 3.\newline
+The market stalls “a” have (1+L/2) hit points. A character with the “agile” trait may treat them as difficult terrain instead of as obstacles. When the first market stall has been destroyed, read section 4.\newline
+To construct the loot deck, randomly choose 5xC loot cards and shuffle them together with every item card in the characters’ possession. The characters cannot use their items. Enemies do not drop loot tokens.\newline\newline
+The Vermling Scout is the Thief. The Thief always acts on initiative 50 and performs a Move 3 Jump to reach the door “1” and open it. They ignore difficult terrain and can end their movement on hexes containing obstacles.The Thief is immune to Immobilize and Stun and does not suffer damage; instead, every time they’re dealt at least 1+L/2 damage they drop a loot token in an adjacent hex of the players’ choosing. Whenever a character gains an item card from the loot deck, they may equip and use the item until the end of the scenario and return the item to its original owner immediately afterwards (if desired by the original owner).
+}
+	\end{minipage}
+	\begin{minipage}{\textwidth}
+			\includegraphics[width=0.7\textwidth]{HoardersTwist.png}
+	\end{minipage} 
+	\newpage
+	\backgroundsetup{
+scale=1,
+angle=0,
+contents={%
+      \includegraphics[width=\paperwidth,height=\paperheight]{../../CreatorPack/Scenario Book/Backgrounds/Background - Scenario No Title - Right}
+    }%
+  }
+	\BgThispage
+	{\myfont\textcolor{Blue}{Hoarder's Twist}}\newline
+	\begin{multicols*}{3}
+	  \begin{center}
+	    {\myfont\textcolor{Sepia}{\LARGE{Sections:}}}
+		\end{center}
+		\begin{center}
+		  {\myfont\large{\textcolor{Sepia}{1}}}
+		\end{center}
+		\footnotesize{The frenetic chase attracts some unwanted attention. Riled up by the noise, a pack of hounds rushes after the Vermling, but when they fail to get hold of the tasty morsel beneath the giant sack, the frenzied strays turn on you instead. Meanwhile, those of you who’ve fallen behind wonder if you might get some help at the nearby inn.}
+		\begin{center}
+	    {\myfont\normalsize{\textcolor{Blue}{Special Rules:}}}
+		\end{center}
+		\footnotesize{From now on, the Thief moves towards the closest “d” hex on its turn. If they reach any “d” hex, read section 5. If for any reason they can no longer reach any “d” hex, read section 5 immediately.}
+		\begin{center}
+		  {\myfont\large{\textcolor{Sepia}{2}}}
+		\end{center}
+		\footnotesize{You slam open the door to the inn and shout for help, but the room is empty except for the innkeeper who seems reluctant to rush to your aid. They’ll probably need some convincing - unless you’re not in the mood for arguing and would rather try your luck with the back door. }
+		\begin{center}
+	    {\myfont\normalsize{\textcolor{Blue}{Special Rules:}}}
+		\end{center}
+		\footnotesize{Any character adjacent to the innkeeper “c” can use a Heal ability to attempt to convince them to help the party. To do this, they draw a modifier card as if performing a regular attack and add the modifier drawn to the Heal value. If they obtain a net result of (3-M/10) or higher, where M is the current morale of Frosthaven, they successfully convince the innkeeper. In this case, read section 6.}
+		\begin{center}
+		  {\myfont\large{\textcolor{Sepia}{3}}}
+		\end{center}
+		\footnotesize{You break through a thin, shoddily repaired wall right into a small shop. Two angry guards leap to their feet and draw their weapons, ready to deal with the vandalizing intruders.}
+		\begin{center}
+		  {\myfont\large{\textcolor{Sepia}{4}}}
+		\end{center}
+		\footnotesize{You bash and smash your way right through the market stall, eager to catch up with the filthy thief. The ruckus you cause doesn’t go unnoticed - a couple of guards storm out of a nearby shack, weapons drawn.}
+		\begin{center}
+	    {\myfont\normalsize{\textcolor{Blue}{Special Rules:}}}
+		\end{center}
+		\footnotesize{Spawn two normal city guards for two players, one normal and one elite city guard for three players, or two elite city guards for four players at “e”.}
+		\begin{center}
+		  {\myfont\large{\textcolor{Sepia}{5}}}
+		\end{center}
+		\footnotesize{With nowhere left to run, the Vermling thief begins clawing at the dirt, trying to dig a tunnel to escape with their spoils. If you don’t stop them right there, you can kiss your treasured belongings goodbye.}
+		\begin{center}
+	    {\myfont\normalsize{\textcolor{Blue}{Special Rules:}}}
+		\end{center}
+		\footnotesize{The Thief no longer moves. After the next 2+D/5 rounds, where D is the current defense rating of Frosthaven, they escape through a tunnel and the scenario is lost.}
+		\begin{center}
+		 {\myfont \large{\textcolor{Sepia}{6}}}
+		\end{center}
+		\footnotesize{You hurry to explain your predicament to the innkeeper. Luckily, they quickly overcome their initial reluctance and agree to help you. You wince at the shrill, high-pitched warble as they blow the small whistle they fish out of their pocket. Somewhere near the outpost walls, a sleepy guard wakes from their doze, spots the thieving Vermling and grabs their crossbow to open fire without hesitation. The innkeeper smiles at you, offering you to take a seat and have an ale, while your eyes wander to the back door.}
+		\begin{center}
+	    {\myfont\normalsize{\textcolor{Blue}{Special Rules:}}}
+		\end{center}
+		\footnotesize{Open door “1” if it hasn’t already been opened. Spawn a normal city archer for two or three players or an elite city archer for four players at “f”. The archer is an ally to the characters and an enemy to all enemies.}
+				\begin{center}
+		  {\myfont\LARGE{\textcolor{OliveGreen}{Conclusion:}}}
+		\end{center}
+		\footnotesize{At last, you’ve pummeled the last piece of loot out of the ridiculous thief, reclaiming everything they’d stolen from you and then some. You tie the battered Vermling up for some good old-fashioned justice. Right after you’ve finally had a well-deserved night’s rest.}
+		\begin{center}
+		  {\myfont\normalsize{\textcolor{Blue}{Rewards:}}}\newline
+		  \footnotesize{Gain 10 experience each.}
+		\end{center}
+		\end{multicols*}
+\end{document}
